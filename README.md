@@ -1,1 +1,1 @@
-# rsp_config_file
+# Raspberry configuration file
