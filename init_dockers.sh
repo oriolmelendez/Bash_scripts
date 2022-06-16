@@ -3,7 +3,7 @@
 STR=$(ps aux | grep docker-compose)
 SUB='docker-compose up'
 if [[ "$STR" == *"$SUB"* ]]; then
-  echo "El docker està funcionant"
+  echo "Currently containers are running"
   sleep 3
   exit 0
 fi
